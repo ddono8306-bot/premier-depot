@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.cv {
+    width: 1160px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.cv-header {
+    display: flex;
+    align-items: center;
+    background-color: #19aab2;
+    padding: 25px 50px;
+    color: white;
+}
+
+.coordonnees img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+.photo {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid white;
+}
+.identite {
+    width: 65%;
+    text-align: center;
+}
+.coordonnees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 460px;
+    margin: 15px auto 0;
+    row-gap: 8px;
+}
+
+.coordonnees a {
+    display: flex;
+    align-items: center;
+    flex: 0 0 50%;
+    gap: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.coordonnees img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+/* tête de mon cv */
+
+/* CORPS DU CV */
+.cv-content {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* COLONNE GAUCHE */
+.sidebar {
+    width: 30%;
+    background-color: #edf0f0;
+    padding: 30px;
+}
+/* COLONNE DROITE */
+
+
+.contenu-principal {
+    width: 70%;
+    background-color: white;
+    padding: 30px;
+}
+
+.sidebar section,
+.contenu-principal section {
+    margin-bottom: 25px;
+}
+
+.sidebar h2,
+.contenu-principal h2 {
+    color: #19aab2;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.profil p {
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: justify;
+    text-indent: 30px;
+    
+ 
+}
+
+
+
+
+.sidebar p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.sidebar ul {
+    padding-left: 15px;
+    list-style-type: square;
+}
+
+.sidebar li {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.sidebar li::marker {
+    color: #19aab2;
+     justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.competences {
+    display: block;
+    width: 100%;
+}
+
+.competence-ligne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.competence-ligne .etoiles {
+    color: #19aab2;
+    letter-spacing: 1px;
+    margin-left: auto;
+}
+
+.langue-ligne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+
+.langue-ligne span:last-child {
+    text-align: right;
+}
+
+
+
+.stage,
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-left: 4px solid transparent;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.formation:hover,
+.stage:hover,
+.experience:hover {
+    background-color: #e0e0e0;
+    border-left-color: #19aab2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+.cv-footer {
+    background-color: #1baab1;
+    color: white;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.reseaux-sociaux img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    transition: opacity 0.3s;
+}
+
+.reseaux-sociaux img:hover {
+    opacity: 0.6;
+}
+
+.cv-footer time {
+    font-size: 9px;
+    font-style: italic;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.reseaux-sociaux img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    transition: opacity 0.3s;
+}
+
+.reseaux-sociaux img:hover {
+    opacity: 0.6;
+}
+
+.cv-footer time {
+    font-size: 9px;
+    font-style: italic;
+}
+
+
+
+
+
